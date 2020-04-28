@@ -45,3 +45,144 @@ HTML lists are defined with
 
 
 
+
+
+
+
+
+Use the style attribute for styling HTML elements
+Use background-color for background color
+Use color for text colors
+Use font-family for text fonts
+Use font-size for text sizes
+Use text-align for text alignment
+
+
+<b> - Bold text </b>
+<strong> - Important text</strong> 
+<i> - Italic text </i>
+<em> - Emphasized text </em>
+<mark> - Marked text </mark>
+<small> - Small text </small>
+<del> - Deleted text </del>
+<ins> - Inserted text </ins>
+<sub> - Subscript text </sub>
+<sup> - Superscript text <sup>
+
+
+<!-- This is a comment -->
+
+
+Color Model
+
+
+
+<h1 style="color:blue;">This is a heading</h1>
+
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+
+
+
+Background Color
+x
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+
+
+
+Text Color
+
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+
+
+
+Color
+
+RGB Color:
+    rgb(red, green, blue)
+
+HEX Value:
+
+     #000000
+
+HSL Value:
+    <h1 style="background-color:hsl(0, 0%, 0%);">hsl(0, 0%, 0%)</h1>
+   <h1 style="background-color:hsl(0, 0%, 24%);">hsl(0, 0%, 24%)</h1>
+   <h1 style="background-color:hsl(0, 0%, 47%);">hsl(0, 0%, 47%)</h1>
+   <h1 style="background-color:hsl(0, 0%, 71%);">hsl(0, 0%, 71%)</h1>
+   <h1 style="background-color:hsl(0, 0%, 94%);">hsl(0, 0%, 94%)</h1>
+   <h1 style="background-color:hsl(0, 0%, 100%);">hsl(0, 0%, 100%)</h1>
+
+
+
+
+
+
+
+<h1 style="color:#000000">RGB </h1>
+<h1 style="color:#ffffff">RGB </h1>
+
+<h1 style="color:#ff0000">R </h1>
+<h1 style="color:#00ff00">G </h1>
+<h1 style="color:#0000ff">B </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4) Styling HTML with CSS
+
+
+Inline - by using the style attribute in HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using an external CSS file
+
+  1)Inline CSS
+  <h1 style="color:blue;">This is a Blue Heading</h1>
+
+  2)Internal CSS
+    <style>
+    p{
+        color: red;
+    }
+    </style>
+    
+  3)External CSS
+   <link rel="stylesheet" href="styles.css">
+
+
+   
