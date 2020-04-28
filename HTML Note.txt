@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+ HTML 5
+
+HTML Headings
+
+    <h1> to <h6> tags
+
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+
+
+HTML Paragraphs
+   
+   <p> Paragraphs tag </p>
+
+
+HTML Links
+
+  <a href="https://www.google.com">This is a link</a>
+
+
+HTML Images
+
+
+   <img src="" alt="" width="104" height="142">
+   '
+
+
+HTML Button
+
+ <button>Click me</button>
+
+
+
+HTML Lists
+
+
+HTML lists are defined with 
+    the <ul> (unordered/bullet list) or 
+    the <ol> (ordered/numbered list) tag,
+        
+    followed by <li> tags (list items):
+
+
+
+
